@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Leather Purse</title>
+
+<link rel="stylesheet" href="product.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="slider">
+
+        <img id="mainImage" src="" alt="Product Image">
+
+        <div class="thumbs">
+            <img id="thumb1" onclick="changeImage(this.src)">
+            <img id="thumb2" onclick="changeImage(this.src)">
+            <img id="thumb3" onclick="changeImage(this.src)">
+            <img id="thumb4" onclick="changeImage(this.src)">
+        </div>
+
+    </div>
+
+    <div class="details">
+
+        <h1 id="productName"></h1>
+
+        <p class="price" id="productPrice"></p>
+
+        <p>
+            Premium leather purse made with
+            high-quality materials and elegant design.
+        </p>
+
+        <div class="info">
+            <p><b>Purse Code:</b> <span id="productCode"></span></p>
+            <p><b>Minimum Quantity:</b> 5 Pieces</p>
+            <p><b>Material:</b> Genuine Leather</p>
+            <p><b>Delivery:</b> All India</p>
+        </div>
+
+        <button id="orderBtn">
+            Order Via WhatsApp
+        </button>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
