@@ -1,56 +1,191 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Leather Purse</title>
-
-<link rel="stylesheet" href="product.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leather Purse</title>
+    
+    <link rel="stylesheet" href="product.css">
 </head>
+
 <body>
-
-<div class="container">
-
-    <div class="slider">
-
-        <img id="mainImage" src="" alt="Product Image">
-
-        <div class="thumbs">
-            <img id="thumb1" onclick="changeImage(this.src)">
-            <img id="thumb2" onclick="changeImage(this.src)">
-            <img id="thumb3" onclick="changeImage(this.src)">
-            <img id="thumb4" onclick="changeImage(this.src)">
+    
+<section class="main">
+    <div class="container">
+        
+        <div class="slider">
+            
+            <img id="mainImage" src="" alt="Product Image">
+            
+            <div class="thumbs">
+                <img id="thumb1" onclick="changeImage(this.src)">
+                <img id="thumb2" onclick="changeImage(this.src)">
+                <img id="thumb3" onclick="changeImage(this.src)">
+                <img id="thumb4" onclick="changeImage(this.src)">
+            </div>
+            
         </div>
-
-    </div>
-
-    <div class="details">
-
-        <h1 id="productName"></h1>
-
-        <p class="price" id="productPrice"></p>
-
-        <p>
-            Premium leather purse made with
-            high-quality materials and elegant design.
-        </p>
-
-        <div class="info">
-            <p><b>Purse Code:</b> <span id="productCode"></span></p>
-            <p><b>Minimum Quantity:</b> 5 Pieces</p>
-            <p><b>Material:</b> Genuine Leather</p>
-            <p><b>Delivery:</b> All India</p>
+        
+        <div class="details">
+            
+            <h1 id="productName"></h1>
+            
+            <p class="price" id="productPrice"></p>
+            
+            <p>
+                Premium leather purse made with
+                high-quality materials and elegant design.
+            </p>
+            
+            <div class="info">
+                <p><b>Purse Code:</b> <span id="productCode"></span></p>
+                <p><b>Minimum Quantity:</b> 5 Pieces</p>
+                <p><b>Material:</b> Genuine Leather</p>
+            </div>
+            
+            <button id="orderBtn">
+                Order Via WhatsApp
+            </button>
+            
         </div>
-
-        <button id="orderBtn">
-            Order Via WhatsApp
-        </button>
-
+        
     </div>
-
-</div>
-
-<script src="script.js"></script>
-
+    <div class="product-grid">
+        
+        <div class="product-card">
+            <img src="bag1.png" alt="Leather Purse 01">
+            <h3>Leather Purse 01</h3>
+            <p>₹2499</p>
+            <a class="product-btn" href="product.html?code=Purse-01&name=Leather%20Purse%2001&price=2499&img1=bag1.png&img2=bag1-2.png&img3=bag1-3.png&img4=bag1-4.png">View Product</a>
+        </div>
+        <div class="product-card">
+            <img src="bag1.png" alt="Leather Purse 02">
+            <h3>Leather Purse 02</h3>
+            <p>₹2699</p>
+            <a class="product-btn" href="product.html?code=Purse-02&name=Leather%20Purse%2002&price=2699&img1=bag1.png&img2=bag1-2.png&img3=bag1-3.png&img4=bag1-4.png">View Product</a>
+        </div>
+        <div class="product-card">
+            <img src="bag1.png" alt="Leather Purse 03">
+            <h3>Leather Purse 03</h3>
+            <p>₹2899</p>
+            <a class="product-btn" href="product.html?code=Purse-03&name=Leather%20Purse%2003&price=2899&img1=bag1.png&img2=bag1-2.png&img3=bag1-3.png&img4=bag1-4.png">View Product</a>
+        </div>
+        <div class="product-card">
+            <img src="bag1.png" alt="Leather Purse 04">
+            <h3>Leather Purse 04</h3>
+            <p>₹3099</p>
+            <a class="product-btn" href="product.html?code=Purse-04&name=Leather%20Purse%2004&price=3099&img1=bag1.png&img2=bag1-2.png&img3=bag1-3.png&img4=bag1-4.png">View Product</a>
+        </div>
+        <div class="product-card">
+            <img src="bag1.png" alt="Leather Purse 05">
+            <h3>Leather Purse 05</h3>
+            <p>₹3299</p>
+            <a class="product-btn" href="product.html?code=Purse-05&name=Leather%20Purse%2005&price=3299&img1=bag1.png&img2=bag1-2.png&img3=bag1-3.png&img4=bag1-4.png">View Product</a>
+        </div>
+        <div class="product-card">
+            <img src="bag1.png" alt="Leather Purse 06">
+            <h3>Leather Purse 06</h3>
+            <p>₹3499</p>
+            <a class="product-btn" href="product.html?code=Purse-06&name=Leather%20Purse%2006&price=3499&img1=bag1.png&img2=bag1-2.png&img3=bag1-3.png&img4=bag1-4.png">View Product</a>
+        </div>
+        <div class="product-card">
+            <img src="bag1.png" alt="Leather Purse 07">
+            <h3>Leather Purse 07</h3>
+            <p>₹3699</p>
+            <a class="product-btn" href="product.html?code=Purse-07&name=Leather%20Purse%2007&price=3699&img1=bag1.png&img2=bag1-2.png&img3=bag1-3.png&img4=bag1-4.png">View Product</a>
+        </div>
+        <div class="product-card">
+            <img src="bag1.png" alt="Leather Purse 08">
+            <h3>Leather Purse 08</h3>
+            <p>₹3899</p>
+            <a class="product-btn" href="product.html?code=Purse-08&name=Leather%20Purse%2008&price=3899&img1=bag1.png&img2=bag1-2.png&img3=bag1-3.png&img4=bag1-4.png">View Product</a>
+        </div>
+        <div class="product-card">
+            <img src="bag1.png" alt="Leather Purse 09">
+            <h3>Leather Purse 09</h3>
+            <p>₹4099</p>
+            <a class="product-btn" href="product.html?code=Purse-09&name=Leather%20Purse%2009&price=4099&img1=bag1.png&img2=bag1-2.png&img3=bag1-3.png&img4=bag1-4.png">View Product</a>
+        </div>
+        <div class="product-card">
+            <img src="bag1.png" alt="Leather Purse 10">
+            <h3>Leather Purse 10</h3>
+            <p>₹4299</p>
+            <a class="product-btn" href="product.html?code=Purse-10&name=Leather%20Purse%2010&price=4299&img1=bag1.png&img2=bag1-2.png&img3=bag1-3.png&img4=bag1-4.png">View Product</a>
+        </div>
+        <div class="product-card">
+            <img src="bag1.png" alt="Leather Purse 11">
+            <h3>Leather Purse 11</h3>
+            <p>₹4499</p>
+            <a class="product-btn" href="product.html?code=Purse-11&name=Leather%20Purse%2011&price=4499&img1=bag1.png&img2=bag1-2.png&img3=bag1-3.png&img4=bag1-4.png">View Product</a>
+        </div>
+        <div class="product-card">
+            <img src="bag1.png" alt="Leather Purse 12">
+            <h3>Leather Purse 12</h3>
+            <p>₹4699</p>
+            <a class="product-btn" href="product.html?code=Purse-12&name=Leather%20Purse%2012&price=4699&img1=bag1.png&img2=bag1-2.png&img3=bag1-3.png&img4=bag1-4.png">View Product</a>
+        </div>
+        <div class="product-card">
+            <img src="bag1.png" alt="Leather Purse 13">
+            <h3>Leather Purse 13</h3>
+            <p>₹4899</p>
+            <a class="product-btn" href="product.html?code=Purse-13&name=Leather%20Purse%2013&price=4899&img1=bag1.png&img2=bag1-2.png&img3=bag1-3.png&img4=bag1-4.png">View Product</a>
+        </div>
+        <div class="product-card">
+            <img src="bag1.png" alt="Leather Purse 14">
+            <h3>Leather Purse 14</h3>
+            <p>₹5099</p>
+            <a class="product-btn" href="product.html?code=Purse-14&name=Leather%20Purse%2014&price=5099&img1=bag1.png&img2=bag1-2.png&img3=bag1-3.png&img4=bag1-4.png">View Product</a>
+        </div>
+        <div class="product-card">
+            <img src="bag1.png" alt="Leather Purse 15">
+            <h3>Leather Purse 15</h3>
+            <p>₹5299</p>
+            <a class="product-btn" href="product.html?code=Purse-15&name=Leather%20Purse%2015&price=5299&img1=bag1.png&img2=bag1-2.png&img3=bag1-3.png&img4=bag1-4.png">View Product</a>
+        </div>
+        <div class="product-card">
+            <img src="bag1.png" alt="Leather Purse 16">
+            <h3>Leather Purse 16</h3>
+            <p>₹5499</p>
+            <a class="product-btn" href="product.html?code=Purse-16&name=Leather%20Purse%2016&price=5499&img1=bag1.png&img2=bag1-2.png&img3=bag1-3.png&img4=bag1-4.png">View Product</a>
+        </div>
+        <div class="product-card">
+            <img src="bag1.png" alt="Leather Purse 17">
+            <h3>Leather Purse 17</h3>
+            <p>₹5699</p>
+            <a class="product-btn" href="product.html?code=Purse-17&name=Leather%20Purse%2017&price=5699&img1=bag1.png&img2=bag1-2.png&img3=bag1-3.png&img4=bag1-4.png">View Product</a>
+        </div>
+        <div class="product-card">
+            <img src="bag1.png" alt="Leather Purse 18">
+            <h3>Leather Purse 18</h3>
+            <p>₹5899</p>
+            <a class="product-btn" href="product.html?code=Purse-18&name=Leather%20Purse%2018&price=5899&img1=bag1.png&img2=bag1-2.png&img3=bag1-3.png&img4=bag1-4.png">View Product</a>
+        </div>
+        <div class="product-card">
+            <img src="bag1.png" alt="Leather Purse 19">
+            <h3>Leather Purse 19</h3>
+            <p>₹6099</p>
+            <a class="product-btn" href="product.html?code=Purse-19&name=Leather%20Purse%2019&price=6099&img1=bag1.png&img2=bag1-2.png&img3=bag1-3.png&img4=bag1-4.png">View Product</a>
+        </div>
+        <div class="product-card">
+            <img src="bag1.png" alt="Leather Purse 20">
+            <h3>Leather Purse 20</h3>
+            <p>₹6299</p>
+            <a class="product-btn" href="product.html?code=Purse-20&name=Leather%20Purse%2020&price=6299&img1=bag1.png&img2=bag1-2.png&img3=bag1-3.png&img4=bag1-4.png">View Product</a>
+        </div>
+        
+    </div>
+</section>
+    
+    <footer id="contact">
+        <h3><i class="fa-solid fa-bag-shopping"></i>LeatherLux</h3>
+        <p>Premium Leather Purses Wholesale & Retail</p>
+        <p>WhatsApp: +91 8178423516</p>
+        <p>© 2026 LeatherLux. All Rights Reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+    
 </body>
+
 </html>
